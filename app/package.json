@@ -1,0 +1,26 @@
+{
+  "name": "@itonami/wakai-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "itonami": {
+    "id": "network.itonami.wakai",
+    "title": "Wakai",
+    "storageKey": "itonami.wakai.v1",
+    "description": "和会 — 会員どうしの助け合いの記録を、この端末で検証します。拠出・分配の記録が憲章（保険でも投資でもない、3 人以上の識別と評議会の証明）を満たすかを確かめ、期間の集計を作ります。お金は動かさず、外部へは何も送信しません。",
+    "cljsSources": [
+      "../src"
+    ],
+    "storeId": "network.itonami.wakai"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "tauri": "tauri",
+    "build:desktop": "npm run build && tauri build --no-bundle",
+    "build:android": "sh scripts/android-apk.sh"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "3.0.0-alpha.6"
+  }
+}
