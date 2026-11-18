@@ -1,9 +1,9 @@
-# com-etzhayyim-wakai — CLAUDE.md
+# app-itonami-wakai — CLAUDE.md
 
 ## Identity
 
 - **Name**: wakai (和会 — harmony/reconciliation gathering; classical 互助会 mutual aid society)
-- **DID**: `did:web:wakai.etzhayyim.com`
+- **DID**: `did:web:wakai.itonami.cloud`
 - **ADR**: ADR-2605263500 (R0 scaffold, 2026-05-26)
 - **Parent ADR**: ADR-2605192145 (Public Fund — backstop source)
 - **Status**: R0 scaffold — 6 cells path-reserved + 5 Lexicon skeletons
@@ -181,7 +181,7 @@ through the west checkout plus a pinned revision in `dependencies.edn`.
 - `README.md`
 - `lex/` (canonical EDN) and `wire/` (external JSON)
 - `/90-docs/adr/2605263500-wakai-mutual-aid-tier-b-actor-r0.md`
-- `/90-docs/adr/2605192145-etzhayyim-public-fund-architecture.md` — backstop source
+- `/90-docs/adr/2605192145-itonami-public-fund-architecture.md` — backstop source
 - `/90-docs/adr/2605263200-kazaori-disaster-response-tier-b-actor-r0.md` — emergency cross-actor
 - `/90-docs/adr/2605263000-iyashi-clinical-care-provider-tier-b-actor-r0.md` — health event cross-actor
 - `/90-docs/adr/2605262900-toritate-accounting-audit-tier-b-actor-r0.md` — accounting + backstop accounting

@@ -1,5 +1,5 @@
 {"lexicon" 1,
- "id" "com.etzhayyim.wakai.publicFundBackstopRequest",
+ "id" "cloud.itonami.wakai.publicFundBackstopRequest",
  "description"
  "Public Fund backstop request when wakai pool insufficient. G10 STRUCTURAL: councilAttestations minLength 4 (Council Lv6+ ≥4/7 supermajority per ADR-2605192145). Cross-actor toritate.ledgerEntry cross-link required for backstop disbursement transparency.",
  "defs"

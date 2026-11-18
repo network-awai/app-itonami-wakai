@@ -1,5 +1,5 @@
 {"lexicon" 1,
- "id" "com.etzhayyim.wakai.mutualAidPoolStateReport",
+ "id" "cloud.itonami.wakai.mutualAidPoolStateReport",
  "description"
  "Per-period aggregate pool state report. NO individual member-contribution amounts public (aggregate only). G6 STRUCTURAL: poolAssetClass const 'usdc-stable-only'; defiYieldFarmingActiveCount const 0. G10 publicFundBackstopActivationsCount tracks backstop usage. Council Lv6+ ≥3 attestation required.",
  "defs"

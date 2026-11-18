@@ -1,10 +1,10 @@
 {
   "@context": [
     "https://www.w3.org/ns/activitystreams",
-    "https://etzhayyim.com/ns/actor-manifest"
+    "https://itonami.cloud/ns/actor-manifest"
   ],
   "@type": "ActorManifest",
-  "id": "did:web:wakai.etzhayyim.com",
+  "id": "did:web:wakai.itonami.cloud",
   "name": "wakai",
   "integrates": ["hagukumi", "iyashi", "kawase-yui", "kazaori", "toritate", "yakushi"],
   "displayName": "和会 — Mutual Aid",
@@ -13,9 +13,9 @@
   "description": "Non-profit religious-corp mutual aid substrate. NOT insurance (no premium-as-contract; no actuarial pricing; no claim adjudication; no policy denial). Member-to-member solidarity pooling per Charter §1.7 反個人主義 + 多世代. Pool in USDC on Base L2 stable-asset only. NO commercial insurance software (G4: Guidewire/Duck Creek/Insurity/Sapiens/Majesco/SAP Insurance/Oracle Insurance/Lemonade/Hippo PROHIBITED per Charter Rider §2(e)+§2(c)). NO commercial re-insurance (G5: Munich Re/Swiss Re/SCOR/Hannover Re PROHIBITED). NO investment return promise (G6: Charter Rider §2(b) speculative finance). NO pre-existing condition discrimination (G7). Voluntary ability-scaled contribution (G8). Community discernment distribution (G9: Council Lv6+ ≥3 + ≥3 community attestation). Public Fund backstop (G10). NO payroll (G11). 6 cells / 5 Lexicons / 12 gates / 12 non-goals.",
   "descriptionJa": "非営利 religious-corp の相互扶助 substrate。保険ではない (保険料契約なし; 数理的価格設定なし; 給付査定なし; 拒絶不能)。会員相互の連帯プール per Charter §1.7 反個人主義 + 多世代。プールは USDC on Base L2 安定資産のみ。商業保険ソフト禁止 (G4: Guidewire/Duck Creek/Insurity/Sapiens/Majesco/SAP Insurance/Oracle Insurance/Lemonade/Hippo PROHIBITED per Charter Rider §2(e)+§2(c))。商業再保険禁止 (G5: Munich Re/Swiss Re/SCOR/Hannover Re PROHIBITED)。投資リターン約束なし (G6: Charter Rider §2(b) 投機金融禁止)。既往症差別禁止 (G7)。任意かつ能力に応じた拠出 (G8)。コミュニティ識別分配 (G9: Council Lv6+ ≥3 + 地域証人 ≥3)。公的資金バックストップ (G10)。給与なし (G11)。",
   "adr": {
-    "master": "etzhayyim:adr:2605263500",
-    "parent": "etzhayyim:adr:2605192145",
-    "r0": "etzhayyim:adr:2605263500",
+    "master": "itonami:adr:2605263500",
+    "parent": "itonami:adr:2605192145",
+    "r0": "itonami:adr:2605263500",
     "r1": "reserved",
     "r2": "reserved",
     "r3": "reserved"
@@ -114,11 +114,11 @@
     }
   ],
   "lexiconNamespaces": [
-    "com.etzhayyim.wakai.mutualAidContributionAttestation",
-    "com.etzhayyim.wakai.mutualAidDistributionAttestation",
-    "com.etzhayyim.wakai.mutualAidPoolStateReport",
-    "com.etzhayyim.wakai.publicFundBackstopRequest",
-    "com.etzhayyim.wakai.silenWakaiReview"
+    "cloud.itonami.wakai.mutualAidContributionAttestation",
+    "cloud.itonami.wakai.mutualAidDistributionAttestation",
+    "cloud.itonami.wakai.mutualAidPoolStateReport",
+    "cloud.itonami.wakai.publicFundBackstopRequest",
+    "cloud.itonami.wakai.silenWakaiReview"
   ],
   "constitutionalGates": {
     "description": "12 immutable gates per ADR-2605263500. Council Lv6+ supermajority + new ADR to amend.",
@@ -187,11 +187,11 @@
   "references": {
     "adr": {
       "master": "/90-docs/adr/2605263500-wakai-mutual-aid-tier-b-actor-r0.md",
-      "publicFund": "/90-docs/adr/2605192145-etzhayyim-public-fund-architecture.md",
-      "tithe": "/90-docs/adr/2605192130-etzhayyim-tithe-redistribution.md",
-      "missionCharter": "/90-docs/adr/2605192100-etzhayyim-mission-charter.md",
-      "charterRider": "/90-docs/adr/2605192200-etzhayyim-ip-free-release-charter-rider.md",
-      "muragumoOnly": "/90-docs/adr/2605215000-etzhayyim-inference-murakumo-only-no-runpod.md",
+      "publicFund": "/90-docs/adr/2605192145-itonami-public-fund-architecture.md",
+      "tithe": "/90-docs/adr/2605192130-itonami-tithe-redistribution.md",
+      "missionCharter": "/90-docs/adr/2605192100-itonami-mission-charter.md",
+      "charterRider": "/90-docs/adr/2605192200-itonami-ip-free-release-charter-rider.md",
+      "muragumoOnly": "/90-docs/adr/2605215000-itonami-inference-murakumo-only-no-runpod.md",
       "liberation": "/90-docs/adr/2605261000-labor-liberation-transition-mechanism.md",
       "crossActorKazaori": "/90-docs/adr/2605263200-kazaori-disaster-response-tier-b-actor-r0.md",
       "crossActorIyashi": "/90-docs/adr/2605263000-iyashi-clinical-care-provider-tier-b-actor-r0.md",
