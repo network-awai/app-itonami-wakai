@@ -1,4 +1,4 @@
-{:identity/id "did:web:wakai.etzhayyim.com"
+{:identity/id "did:web:wakai.itonami.cloud"
  :identity/actor "wakai"
  :identity/canonical-document "manifest.edn"
  :identity/external-did-document ".well-known/did.json"

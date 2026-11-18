@@ -1,5 +1,5 @@
 {"lexicon" 1,
- "id" "com.etzhayyim.wakai.mutualAidContributionAttestation",
+ "id" "cloud.itonami.wakai.mutualAidContributionAttestation",
  "description"
  "Per-member contribution attestation. G6 STRUCTURAL: investmentReturnPromised const false (Charter Rider §2(b) speculative finance prohibition). G8 STRUCTURAL: voluntary + ability-scaled; no premium-as-contract. Contribution amounts stored encrypted (member-by-amount linkage is PII); aggregate published only.",
  "defs"

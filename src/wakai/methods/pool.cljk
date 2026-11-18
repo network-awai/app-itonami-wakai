@@ -2,7 +2,7 @@
   "wakai 和会 — member-to-member mutual-aid pool: contribution validation, distribution
   validation, and pool-state aggregation (R0 reference implementation, ADR-2605263500).
 
-  Pure functions matching the `com.etzhayyim.wakai.*` Lexicon record shapes exactly
+  Pure functions matching the `cloud.itonami.wakai.*` Lexicon record shapes exactly
   (`lex/`, with external JSON projections under `wire/`).
 
     G3 NOT insurance          : every distribution record structurally carries

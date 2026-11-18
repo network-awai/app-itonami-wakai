@@ -1,7 +1,7 @@
 # wakai (和会) — Non-profit Religious-Corp Mutual Aid Substrate
 
-**DID**: `did:web:wakai.etzhayyim.com`
-**Namespace**: `com.etzhayyim.wakai.*`
+**DID**: `did:web:wakai.itonami.cloud`
+**Namespace**: `cloud.itonami.wakai.*`
 **ADR**: ADR-2605263500 (R0 scaffold)
 **Status**: R0 scaffold (2026-05-26) — 6 cells path-reserved + 5 Lexicon skeletons
 **Cross-actor**: kazaori (emergency pool; path-reserved wakai cross-actor at ADR-2605263200) / iyashi+hagukumi+yakushi (health event) / toritate (accounting + Public Fund backstop) / chigiri (membership + procedural)
@@ -58,7 +58,7 @@ Etymology: 和会 (wakai) = harmony/reconciliation gathering; classical
 | `wakai_public_fund_backstop_request` | asher (toritate-paired) | event | pool insufficient → Council Lv6+ ≥4/7 backstop |
 | `wakai_pool_state_reporting` | asher | continuous (monthly) | aggregate state → mutualAidPoolStateReport (no individual amounts) |
 
-## 5 Lexicons under `com.etzhayyim.wakai.*`
+## 5 Lexicons under `cloud.itonami.wakai.*`
 
 | Lexicon | Purpose |
 |---|---|
@@ -103,6 +103,6 @@ See ADR-2605263500 §6.
 - `lex/` (5 canonical EDN lexicons)
 - `/90-docs/adr/2605263500-wakai-mutual-aid-tier-b-actor-r0.md`
 - `/90-docs/adr/2605263200-kazaori-disaster-response-tier-b-actor-r0.md` — cross-actor emergency
-- `/90-docs/adr/2605192145-etzhayyim-public-fund-architecture.md` — backstop source
+- `/90-docs/adr/2605192145-itonami-public-fund-architecture.md` — backstop source
 - `/CHARTER-RIDER.md` §2(b) + §2(e) + §2(c) — gate sources
 - `/CLAUDE.md` — Status table row 74

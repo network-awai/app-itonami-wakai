@@ -1,6 +1,6 @@
 {
   "lexicon": 1,
-  "id": "com.etzhayyim.wakai.mutualAidDistributionAttestation",
+  "id": "cloud.itonami.wakai.mutualAidDistributionAttestation",
   "description": "Per-distribution attestation. G9 STRUCTURAL: communityDiscernmentAttestations minLength 3 + councilAttestations minLength 3 (Council Lv6+ ≥3 + ≥3 community attestation chain; NOT claim adjudication). G7 STRUCTURAL: noPreExistingConditionExclusion const true. G3 NOT insurance: needCategory enum is discernment-based, NOT claim-category-based.",
   "defs": {
     "main": {

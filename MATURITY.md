@@ -6,7 +6,7 @@ denial / underwriting / investment-return / commercial (re)insurance / DeFi spec
 
 | Dimension | State |
 |---|---|
-| Lexicons | ✅ 5 under `com.etzhayyim.wakai.*` (contribution / distribution / poolStateReport / publicFundBackstopRequest / silenWakaiReview) — const fields fully populated (README's "R0 skeleton" note is now outdated) |
+| Lexicons | ✅ 5 under `cloud.itonami.wakai.*` (contribution / distribution / poolStateReport / publicFundBackstopRequest / silenWakaiReview) — const fields fully populated (README's "R0 skeleton" note is now outdated) |
 | Manifest | ✅ canonical `manifest.edn`; JSON-LD retained only as `wire/manifest.jsonld` |
 | Tests | ✅ `test/wakai/methods/test_charter_gates.cljk` + `test/wakai/methods/test_pool.cljk`, run through `kbb --classpath src:test run_tests.cljk` |
 | Cells | ⛔ none yet (R1 — wiring `methods/pool.cljc` into a live kotoba-kotodama Pregel cell is separate from the reference-impl existing) |

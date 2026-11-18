@@ -3,24 +3,24 @@
  "G3 STRUCTURAL: no premium-as-contract / no actuarial pricing / no claim adjudication / no policy denial / no underwriting / no investment return; member-to-member solidarity only",
  "@context"
  ["https://www.w3.org/ns/activitystreams"
-  "https://etzhayyim.com/ns/actor-manifest"],
+  "https://itonami.cloud/ns/actor-manifest"],
  "references"
  {"adr"
   {"missionCharter"
-   "/90-docs/adr/2605192100-etzhayyim-mission-charter.md",
+   "/90-docs/adr/2605192100-itonami-mission-charter.md",
    "liberation"
    "/90-docs/adr/2605261000-labor-liberation-transition-mechanism.md",
-   "tithe" "/90-docs/adr/2605192130-etzhayyim-tithe-redistribution.md",
+   "tithe" "/90-docs/adr/2605192130-itonami-tithe-redistribution.md",
    "publicFund"
-   "/90-docs/adr/2605192145-etzhayyim-public-fund-architecture.md",
+   "/90-docs/adr/2605192145-itonami-public-fund-architecture.md",
    "muragumoOnly"
-   "/90-docs/adr/2605215000-etzhayyim-inference-murakumo-only-no-runpod.md",
+   "/90-docs/adr/2605215000-itonami-inference-murakumo-only-no-runpod.md",
    "crossActorIyashi"
    "/90-docs/adr/2605263000-iyashi-clinical-care-provider-tier-b-actor-r0.md",
    "crossActorToritate"
    "/90-docs/adr/2605262900-toritate-accounting-audit-tier-b-actor-r0.md",
    "charterRider"
-   "/90-docs/adr/2605192200-etzhayyim-ip-free-release-charter-rider.md",
+   "/90-docs/adr/2605192200-itonami-ip-free-release-charter-rider.md",
    "crossActorKazaori"
    "/90-docs/adr/2605263200-kazaori-disaster-response-tier-b-actor-r0.md",
    "master"
@@ -32,7 +32,7 @@
  "displayName" "和会 — Mutual Aid",
  "form"
  "任意団体 internal mutual aid substrate (NOT 一般社団 / NPO / 公益財団 / 宗教法人 法人格; NOT a state-licensed insurance entity — Preamble §0.4 Lv7+ unanimity lock)",
- "id" "did:web:wakai.etzhayyim.com",
+ "id" "did:web:wakai.itonami.cloud",
  "name" "wakai",
  "roadmap"
  [{"phase" "R0",
@@ -64,19 +64,19 @@
    "murakumoFleet" "asher + gad + zebulun (3 nodes)",
    "gate" "Council Lv7+ unanimity + distribution cycle completed"}],
  "adr"
- {"master" "etzhayyim:adr:2605263500",
-  "parent" "etzhayyim:adr:2605192145",
-  "r0" "etzhayyim:adr:2605263500",
+ {"master" "itonami:adr:2605263500",
+  "parent" "itonami:adr:2605192145",
+  "r0" "itonami:adr:2605263500",
   "r1" "reserved",
   "r2" "reserved",
   "r3" "reserved"},
  "parentActor" nil,
  "lexiconNamespaces"
- ["com.etzhayyim.wakai.mutualAidContributionAttestation"
-  "com.etzhayyim.wakai.mutualAidDistributionAttestation"
-  "com.etzhayyim.wakai.mutualAidPoolStateReport"
-  "com.etzhayyim.wakai.publicFundBackstopRequest"
-  "com.etzhayyim.wakai.silenWakaiReview"],
+ ["cloud.itonami.wakai.mutualAidContributionAttestation"
+  "cloud.itonami.wakai.mutualAidDistributionAttestation"
+  "cloud.itonami.wakai.mutualAidPoolStateReport"
+  "cloud.itonami.wakai.publicFundBackstopRequest"
+  "cloud.itonami.wakai.silenWakaiReview"],
  "scope"
  {"phase" "R0 scaffold",
   "scopeBoundary"
